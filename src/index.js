@@ -9,7 +9,17 @@ document.addEventListener("DOMContentLoaded", () => {
         characterName.textContent = characters.name
 
         characterBar.appendChild(characterName)
-        
+
+
+
+        characterName.addEventListener("click", (events) => {
+            const nameDisplay = document.getElementById("name")
+            const image = document.getElementById("image")
+
+            nameDisplay.textContent = characters.name
+            image.src = characters.image
+        })
+
     }
 
 
