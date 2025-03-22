@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             nameDisplay.textContent = characters.name
             image.src = characters.image
+            image.alt = characters.name
         })
 
     }
