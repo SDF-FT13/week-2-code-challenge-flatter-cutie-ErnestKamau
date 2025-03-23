@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-
     function getCharachters(){
         fetch('http://localhost:3000/characters')
         .then( (response) => response.json())
@@ -34,13 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+    const myForm = document.getElementById("votes-form")
 
-
-
-
-
-
-
+    function 
 
 
 
