@@ -35,7 +35,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const myForm = document.getElementById("votes-form")
 
-    function 
+    function getForm(events){
+        
+        const inputField = document.getElementById("votes")
+        const voteDisplay = document.getElementById("vote-count")
+
+
+        voteDisplay.textContent = inputField.value
+    }
+
+    myForm.addEventListener("submit", (events) => {getForm(events)
+        events.preventDefault()
+    })
+
+
+
 
 
 
